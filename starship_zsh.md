@@ -32,6 +32,18 @@ alias ls='ls -F --color' # -F adds classification to the list. --color is obviou
 
 
 
+If you have an older version of macOS the alias needs to be:
+
+
+
+```shell
+alias ls='ls -GF' # -G enables color and -F adds classification to the list (basicaly a / after folders) :)
+```
+
+
+
+
+
 🔥 You can do so much more with starship by heading over to the docs site, but here's a small list:
 
 * change [the prompt format](https://starship.rs/config/#prompt) and information you are seeing
